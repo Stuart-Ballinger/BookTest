@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+	<name>Great Expectations</name>
+	<author>Charles Dickens</author>
+	<prices>
+		<price>
+			<country>UK</country>
+			<currency>GBP</currency>
+			<value>4.99</value>
+		</price>
+		<price>
+			<country>IE</country>
+			<currency>EUR</currency>
+			<value>7.99</value>
+		</price>
+		<price>
+			<country>DE</country>
+			<currency>EUR</currency>
+			<value>8.49</value>
+		</price>
+	</prices>
+	<ISBN>4812439867</ISBN>
+</book>

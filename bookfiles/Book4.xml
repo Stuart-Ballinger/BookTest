@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+	<name>A Short History of Everything</name>
+	<author>Bill Bryson</author>
+	<prices>
+		<price>
+			<country>UK</country>
+			<currency>GBP</currency>
+			<value>10.99</value>
+		</price>
+		<price>
+			<country>IE</country>
+			<currency>EUR</currency>
+			<value>12.99</value>
+		</price>
+		<price>
+			<country>DE</country>
+			<currency>EUR</currency>
+			<value>13.49</value>
+		</price>
+	</prices>
+	<ISBN>1423056978</ISBN>
+</book>

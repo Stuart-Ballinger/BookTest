@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+	<name>A Hitchhikers Guide to the Galaxy</name>
+	<author>Douglas Adams</author>
+	<prices>
+		<price>
+			<country>UK</country>
+			<currency>GBP</currency>
+			<value>3.99</value>
+		</price>
+		<price>
+			<country>IE</country>
+			<currency>EUR</currency>
+			<value>5.99</value>
+		</price>
+		<price>
+			<country>DE</country>
+			<currency>EUR</currency>
+			<value>6.49</value>
+		</price>
+	</prices>
+	<ISBN>5948372610</ISBN>
+</book>
