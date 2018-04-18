@@ -4,8 +4,8 @@ import xml.etree.ElementTree as ET
 from sys import exit
 
 Books = []
-xmlBookList = "C:\\Users\\stuar\\Books\\config\\booklist.txt"
-xmlBookPath = "C:\\Users\\stuar\\Books\\bookfiles\\"
+xmlBookList = "/config/booklist.txt"
+xmlBookPath = "/bookfiles/"
 
 try:
     with open(xmlBookList, 'r') as infile:

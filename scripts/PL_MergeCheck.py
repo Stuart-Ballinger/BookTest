@@ -11,9 +11,9 @@ def strip(elem):    # Function to strip whitespace and newlines from elements.
         if elem.tail:
             elem.tail = elem.tail.strip()
 
-xmlBookList = "C:\\Users\\stuar\\Books\\config\\booklist.txt"
-xmlBookPath = "C:\\Users\\stuar\\Books\\bookfiles\\"
-xml_schema = "C:\\Users\\stuar\\Books\\config\\bookschema.xsd"
+xmlBookList = "/config/booklist.txt"
+xmlBookPath = "/bookfiles/"
+xml_schema = "/config/bookschema.xsd"
 
 # define Objects
 # ElementTree Obj for combined XML
