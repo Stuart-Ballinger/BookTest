@@ -4,8 +4,8 @@ import xml.etree.ElementTree as ET
 from sys import exit
 
 Books = []
-xmlBookList = "/config/booklist.txt"
-xmlBookPath = "/bookfiles/"
+xmlBookList = "config/booklist.txt"
+xmlBookPath = "bookfiles/"
 
 try:
     with open(xmlBookList, 'r') as infile:
@@ -14,7 +14,7 @@ try:
         Books = BookList.splitlines()
 
 except FileNotFoundError:
-    print('ERROR: File open, ChannelList.txt not found')
+    print('ERROR: File open, BookList.txt not found')
     exit(1)
 
 # Parse each xml file in channel list and process business rules
