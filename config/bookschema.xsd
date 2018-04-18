@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified"
+           xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1">
+    <xs:element name="books">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="book" type="book" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+	<xs:complexType name="book">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="author" type="xs:string"/>
+            <xs:element name="prices" type="prices"/>
+            <xs:element name="ISBN" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+	<xs:complexType name="prices">
+        <xs:sequence>
+			<xs:element name="price" type="price" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+	<xs:complexType name="price">	        
+		<xs:sequence>	
+			<xs:element name="country" type="countryCode"/>
+			<xs:element name="currency" type="currencyCode"/>
+			<xs:element name="value" type="xs:float"/>
+        </xs:sequence>
+    </xs:complexType>		
+	<xs:simpleType name="countryCode">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="UK|IE|DE"/>
+        </xs:restriction>
+    </xs:simpleType>
+		<xs:simpleType name="currencyCode">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="GBP|EUR"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
