@@ -6,17 +6,17 @@
 		<price>
 			<country>UK</country>
 			<currency>GBP</currency>
-			<value>2.99</value>
+			<value>3.99</value>
 		</price>
 		<price>
 			<country>IE</country>
 			<currency>EUR</currency>
-			<value>4.99</value>
+			<value>5.99</value>
 		</price>
 		<price>
 			<country>DE</country>
 			<currency>EUR</currency>
-			<value>6.50</value>
+			<value>6.49</value>
 		</price>
 	</prices>
 	<ISBN>5948372610</ISBN>
